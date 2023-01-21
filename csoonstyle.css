@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:PT Mono;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bgmain.png);
+    background-size: cover;
+    background-position: center;
+}
+.middle {
+    position:absolute;
+    top: 50%;
+    left: 8%;
+    transform:translateY(-50%);
+    color: white;
+}
+.middle h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.middle h5{
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-right: 60%;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.button{
+    background-color: #f3213b;
+    display: flex;
+    margin-right: 88.5%;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #f3213b, 0px 0px 15px #f3213b;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.button:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
